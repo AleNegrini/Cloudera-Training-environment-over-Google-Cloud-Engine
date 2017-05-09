@@ -30,3 +30,6 @@ Once you get access to your VMs (both by private-public key or password) you sho
   * the user you would like to launch Cloudera Manager Server and Agent is a sudoer file
   * you can use sudo as the user of the previous point without typing password. That users should have unlimited, passwordless sudo privileges
   * OS-level firewall is disabled or allows traffic on the ports Cloudera use
+  * it is possible to ping from each machine to the others with the private IP address
+  * it is possible to connect via ssh from each machine to the others using the private IP address
+  * local DNS file should be properly set with the mapping between private IP and the FQDN
