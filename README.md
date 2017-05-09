@@ -23,3 +23,5 @@ All the VMs use the Centos 7 distribution and they have the following specificat
   * tiger: n1-standard-1 (1 vCPU, 3.75 GB memory)
   * horse: n1-standard-1 (1 vCPU, 3.75 GB memory)
   * monkey: n1-standard-1 (1 vCPU, 3.75 GB memory)
+  
+You should even add two firewall rules that, for simplicity, allows inbound and outbound traffic on all the ports. This can be done form the Google Cloud Engine Dashboard (Left menu -> Compute Engine -> VM instances -> select the VM you'd like -> Network -> default click and then customize your rules)
