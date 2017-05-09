@@ -32,4 +32,4 @@ Once you get access to your VMs (both by private-public key or password) you sho
   * OS-level firewall is disabled or allows traffic on the ports Cloudera use
   * it is possible to ping from each machine to the others with the private IP address
   * it is possible to connect via ssh from each machine to the others using the private IP address
-  * local DNS file should be properly set with the mapping between private IP and the FQDN
+  * local DNS file should be properly set with the mapping between private IP and the FQDN (file is located at /etc/hosts)
