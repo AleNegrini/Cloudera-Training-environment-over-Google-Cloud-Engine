@@ -17,4 +17,9 @@ The following are the main steps I went through:
 
 # Setup Google Cloud Engine environment
 In this course, I will install Cloudera Manager and CDH (Cloudera Distribution including Apache Hadoop) on five virtual machines (VMs) running in the cloud (Google Cloud Engine), exploiting the free trial period (around 1 month). These are referred to as the “cluster VMs”. <br/>
-All the VMs use the Centos 7 distribution. 
+All the VMs use the Centos 7 distribution and they have the following specifications: 
+    * lion: n1-standard-2 (2 vCPU, 7 GB memory)
+    * elephant: n1-standard-1 (1 vCPU, 3.75 GB memory)
+    * tiger: n1-standard-1 (1 vCPU, 3.75 GB memory)
+    * horse: n1-standard-1 (1 vCPU, 3.75 GB memory)
+    * monkey: n1-standard-1 (1 vCPU, 3.75 GB memory)
