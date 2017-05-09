@@ -24,4 +24,8 @@ All the VMs use the Centos 7 distribution and they have the following specificat
   * horse: n1-standard-1 (1 vCPU, 3.75 GB memory)
   * monkey: n1-standard-1 (1 vCPU, 3.75 GB memory)
   
-You should even add two firewall rules that, for simplicity, allows inbound and outbound traffic on all the ports. This can be done form the Google Cloud Engine Dashboard (Left menu -> Compute Engine -> VM instances -> select the VM you'd like -> Network -> default click and then customize your rules)
+You should even add two firewall rules that, for simplicity, allows inbound and outbound traffic on all the ports. This can be done form the Google Cloud Engine Dashboard (Left menu -> Compute Engine -> VM instances -> select the VM you'd like -> Network -> default click and then customize your rules)<br/>
+
+Once you get access to your VMs (both by private-public key or password) you should check that: 
+  * the user you would like to launch Cloudera Manager Server and Agent is a sudoer file
+  * you can use sudo as the user of the previous point without typing password. That users should have unlimited, passwordless sudo privileges
