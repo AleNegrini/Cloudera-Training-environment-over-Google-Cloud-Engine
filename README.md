@@ -8,10 +8,8 @@ I also used the Cloudera support website documentation. The Apache Hadoop websit
 The following are the main steps I went through:
 1. Open and configure a proper training VM environment on Google Cloud Engine
 2. Install and configure Cloudera Manager and CDH
-  * Set up a local CDH repository
-  * Perform OS-level configuration for Hadoop installation
-  * Install Cloudera Manager server and agents
-  * Install CDH using Cloudera Manager
-  * Add a new node to an existing cluster
-  * Add a service using Cloudera Manager
 3. Perform basic and advanced configuration needed to effectively administer a Hadoop cluster
+4. Maintain and modify the cluster to support day-to-day operations in the enterprise
+5. Enable relevant services and configure the cluster to meet goals defined by security policy; demonstrate knowledge of basic security practices
+6. Benchmark the cluster operational metrics, test system configuration for operation and efficiency
+7. Demonstrate ability to find the root cause of a problem, optimize inefficient execution, and resolve resource contention scenarios
