@@ -13,3 +13,8 @@ The following are the main steps I went through:
 5. Enable relevant services and configure the cluster to meet goals defined by security policy; demonstrate knowledge of basic security practices
 6. Benchmark the cluster operational metrics, test system configuration for operation and efficiency
 7. Demonstrate ability to find the root cause of a problem, optimize inefficient execution, and resolve resource contention scenarios
+<br/><br/>
+
+# Setup Google Cloud Engine environment
+In this course, I will install Cloudera Manager and CDH (Cloudera Distribution including Apache Hadoop) on five virtual machines (VMs) running in the cloud (Google Cloud Engine), exploiting the free trial period (around 1 month). These are referred to as the “cluster VMs”. <br/>
+All the VMs use the Centos 7 distribution. 
