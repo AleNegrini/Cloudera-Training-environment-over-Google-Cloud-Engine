@@ -29,3 +29,4 @@ You should even add two firewall rules that, for simplicity, allows inbound and 
 Once you get access to your VMs (both by private-public key or password) you should check that: 
   * the user you would like to launch Cloudera Manager Server and Agent is a sudoer file
   * you can use sudo as the user of the previous point without typing password. That users should have unlimited, passwordless sudo privileges
+  * OS-level firewall is disabled or allows traffic on the ports Cloudera use
