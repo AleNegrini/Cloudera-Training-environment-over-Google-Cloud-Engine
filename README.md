@@ -27,7 +27,7 @@ All the VMs use the Centos 7 distribution and they have the following specificat
 You should even add two firewall rules that, for simplicity, allows inbound and outbound traffic on all the ports. This can be done form the Google Cloud Engine Dashboard (Left menu -> Compute Engine -> VM instances -> select the VM you'd like -> Network -> default click and then customize your rules)<br/>
 
 Once you get access to your VMs (both by private-public key or password) you should check that: 
-  * the user you would like to launch Cloudera Manager Server and Agent is a sudoer file
+  * the user you would like to launch Cloudera Manager Server and Agent is a sudoer user
   * you can use sudo as the user of the previous point without typing password. That users should have unlimited, passwordless sudo privileges
   * OS-level firewall is disabled or allows traffic on the ports Cloudera use
   * it is possible to ping from each machine to the others with the private IP address
