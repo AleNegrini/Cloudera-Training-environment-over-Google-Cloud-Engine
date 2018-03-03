@@ -37,7 +37,7 @@ Once you get access to your VMs (both by private-public key or password) you sho
 # Install Cloudera Manager, CDH and Managed Services
 The following steps illustrates the phases required to install Cloudera Manager and a Cloudera Manager 
 deployment for CDH and managed services. Every single phase is required, but you can accomplish each phase in multiple ways. 
-  1. *Install JDK: * JDK required by the Server, Management Services and CDH services. There exists two ways for installing it. The first is to install the oracle JDK during the Cloudera Manager installation wizard, the second is to manually install the same supported version of JDK on each host 
-  2. *Set up DBs: * Database required by the Serverm Management Services and CDH services. However it is possible to install and configure PostreSQL packages by following the Cloudera Manager wizard (please take care that this solution can be done only in non-production environments)
-  3. *Python installation: *it is requirement for Hue.
+  1. Install JDK:  JDK required by the Server, Management Services and CDH services. There exists two ways for installing it. The first is to install the oracle JDK during the Cloudera Manager installation wizard, the second is to manually install the same supported version of JDK on each host 
+  2. Set up DBs:  Database required by the Serverm Management Services and CDH services. However it is possible to install and configure PostreSQL packages by following the Cloudera Manager wizard (please take care that this solution can be done only in non-production environments)
+  3. Python installation: it is requirement for Hue.
   4. Once all the three previous points have been satisfied it's time to install Cloudera Manager. I followed the instllation Path A (not recommended in a production environment), therefore I used a self-executing Cloudera Manager installation program to install Cloudera Manager Server and other packages. 
